@@ -3,7 +3,7 @@ import pandas as pd
 
 def main():
     print("hello Professor Stefanie")
-    path = ["https://raw.githubusercontent.com/lowei1023/Sustainable_Energy_Transition_Analysis/main/merged_electricity_data.csv"]
+    path = "https://raw.githubusercontent.com/lowei1023/Sustainable_Energy_Transition_Analysis/main/merged_electricity_data.csv"
     df = pd.read_csv(path)
     Inference = EnergyAnalysis(df)
     Inference.task_1()
