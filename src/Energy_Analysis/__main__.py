@@ -1,4 +1,4 @@
-from .part_4_Inference import EnergyAnalysis
+from .part_4_inference import EnergyAnalysis
 import pandas as pd
 
 def main():
